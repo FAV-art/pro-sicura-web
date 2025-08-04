@@ -1,32 +1,31 @@
-
 import { Shield, MapPin, Calendar, Award, Users, FileText } from "lucide-react";
-
 export const Trust = () => {
-  const trustElements = [
-    {
-      icon: Shield,
-      title: "Conformità UNI EN 15635",
-      description: "Certificazioni secondo la normativa europea per scaffalature metalliche"
-    },
-    {
-      icon: MapPin,
-      title: "Copertura Nazionale",
-      description: "Interventiamo su tutto il territorio italiano"
-    },
-    {
-      icon: Award,
-      title: "Tecnici Certificati",
-      description: "Team di specialisti qualificati e costantemente aggiornati"
-    },
-    {
-      icon: FileText,
-      title: "Documentazione Completa",
-      description: "Rilasciamo sempre documentazione tecnica dettagliata"
-    }
-  ];
-
-  return (
-    <section className="py-20 bg-primary/5">
+  const trustElements = [{
+    icon: Shield,
+    title: "Conformità UNI EN 15635",
+    description: "Certificazioni secondo la normativa europea per scaffalature metalliche"
+  }, {
+    icon: Calendar,
+    title: "15+ Anni di Esperienza",
+    description: "Oltre 15 anni nel settore delle certificazioni di sicurezza"
+  }, {
+    icon: MapPin,
+    title: "Copertura Nazionale",
+    description: "Interventiamo su tutto il territorio italiano"
+  }, {
+    icon: Award,
+    title: "Tecnici Certificati",
+    description: "Team di specialisti qualificati e costantemente aggiornati"
+  }, {
+    icon: Users,
+    title: "1000+ Clienti Soddisfatti",
+    description: "Aziende di ogni dimensione si affidano alla nostra competenza"
+  }, {
+    icon: FileText,
+    title: "Documentazione Completa",
+    description: "Rilasciamo sempre documentazione tecnica dettagliata"
+  }];
+  return <section className="py-20 bg-primary/5">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
@@ -39,8 +38,7 @@ export const Trust = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          {trustElements.map((element, index) => (
-            <div key={index} className="bg-background rounded-lg p-6 shadow-sm hover:shadow-md transition-all duration-300">
+          {trustElements.map((element, index) => <div key={index} className="bg-background rounded-lg p-6 shadow-sm hover:shadow-md transition-all duration-300">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
                   <element.icon className="w-6 h-6 text-primary" />
@@ -54,16 +52,13 @@ export const Trust = () => {
                   </p>
                 </div>
               </div>
-            </div>
-          ))}
+            </div>)}
         </div>
 
         {/* Sezione normative */}
         <div className="mt-16 bg-background rounded-lg p-8 shadow-sm max-w-4xl mx-auto">
           <div className="text-center">
-            <h3 className="text-2xl font-bold text-foreground mb-4">
-              Conformità Normativa Garantita
-            </h3>
+            <h3 className="text-2xl font-bold text-foreground mb-4">UNI EN 15629</h3>
             <p className="text-muted-foreground mb-6">
               I nostri servizi rispettano rigorosamente tutte le normative vigenti
             </p>
@@ -76,6 +71,5 @@ export const Trust = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
