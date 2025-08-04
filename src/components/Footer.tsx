@@ -19,9 +19,7 @@ export const Footer = () => {
               <p className="text-background/60">
                 <strong>P.IVA:</strong> 04694300981
               </p>
-              <p className="text-background/60">
-                <strong>Codice Fiscale:</strong> 12345678901
-              </p>
+              
               <p className="text-background/60">
                 <strong>REA:</strong> MI-1234567
               </p>
@@ -82,7 +80,7 @@ export const Footer = () => {
               <span className="bg-primary/20 text-primary px-3 py-1 rounded-full">UNI EN 15635</span>
               <span className="bg-primary/20 text-primary px-3 py-1 rounded-full">D.Lgs. 81/08</span>
               <span className="bg-primary/20 text-primary px-3 py-1 rounded-full">UNI EN 15512</span>
-              <span className="bg-primary/20 text-primary px-3 py-1 rounded-full">Direttiva Macchine</span>
+              <span className="bg-primary/20 text-primary px-3 py-1 rounded-full">UNI ENC 15620</span>
             </div>
           </div>
         </div>
