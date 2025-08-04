@@ -135,8 +135,8 @@ export const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-foreground">Sede Operativa</h4>
                     <p className="text-muted-foreground">
-                      Via dell'Industria, 123<br />
-                      20100 Milano (MI)<br />
+                      Via Lentumi, 22<br />
+                      25047 Darfo Boario Terme (BS)<br />
                       Italia
                     </p>
                   </div>
