@@ -10,12 +10,12 @@ export const Hero = () => {
       <div className="container mx-auto px-4 text-center max-w-4xl">
         {/* Logo e nome azienda */}
         <div className="mb-8 flex flex-col items-center">
-          <div className="relative group mb-6">
+          <div className="relative group mb-8">
             {/* Background glow effect */}
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-primary/10 to-transparent rounded-full blur-xl scale-150 group-hover:scale-175 transition-transform duration-700"></div>
             
             {/* Logo container with enhanced styling */}
-            <div className="relative w-48 h-48 md:w-56 md:h-56 bg-gradient-to-br from-background/80 to-background/60 backdrop-blur-sm rounded-full p-6 shadow-2xl border border-primary/20 group-hover:border-primary/40 transition-all duration-500 group-hover:shadow-primary/20 group-hover:shadow-3xl animate-[fadeIn_1s_ease-out,scaleIn_0.8s_ease-out_0.3s_both]">
+            <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 bg-gradient-to-br from-background/80 to-background/60 backdrop-blur-sm rounded-full p-8 shadow-2xl border border-primary/20 group-hover:border-primary/40 transition-all duration-500 group-hover:shadow-primary/20 group-hover:shadow-3xl animate-[fadeIn_1s_ease-out,scaleIn_0.8s_ease-out_0.3s_both]">
               <img 
                 src="/lovable-uploads/e75bb08b-7d6f-426a-b863-51ef33af9085.png" 
                 alt="Pro Sicura Logo" 
@@ -26,9 +26,6 @@ export const Hero = () => {
               <div className="absolute inset-0 rounded-full border-2 border-primary/30 animate-pulse group-hover:border-primary/50 transition-colors duration-300"></div>
             </div>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-4">
-            Pro <span className="text-primary">Sicura</span>
-          </h1>
         </div>
 
         {/* Slogan */}
