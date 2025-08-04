@@ -50,7 +50,7 @@ export const Trust = () => {
         {/* Sezione normative */}
         <div className="mt-16 bg-background rounded-lg p-8 shadow-sm max-w-4xl mx-auto">
           <div className="text-center">
-            <h3 className="text-2xl font-bold text-foreground mb-4">UNI EN 15629</h3>
+            <h3 className="text-2xl font-bold text-foreground mb-4">Certificazione sismica come linee guida 2023</h3>
             <p className="text-muted-foreground mb-6">
               I nostri servizi rispettano rigorosamente tutte le normative vigenti
             </p>
