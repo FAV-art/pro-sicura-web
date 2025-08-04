@@ -6,8 +6,8 @@ export const Footer = () => {
           {/* Logo e descrizione */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-                <Shield className="w-6 h-6 text-primary-foreground" />
+              <div className="w-10 h-10 rounded-full flex items-center justify-center">
+                <img src="/lovable-uploads/4965f630-668d-441e-8bb4-cc8963dd5301.png" alt="Pro Sicura Logo" className="w-6 h-6" />
               </div>
               <span className="text-2xl font-bold">Pro Sicura</span>
             </div>
