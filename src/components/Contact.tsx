@@ -159,14 +159,7 @@ export const Contact = () => {
             </Card>
 
             <Card className="bg-primary/5 border-primary/20">
-              <CardContent className="p-6">
-                <h4 className="font-semibold text-foreground mb-2">Interventi di Emergenza</h4>
-                <p className="text-sm text-muted-foreground mb-3">
-                  Per situazioni di pericolo immediato offriamo interventi urgenti
-                </p>
-                <p className="text-primary font-semibold">📞 +39 345 678 9012</p>
-                <p className="text-xs text-muted-foreground">Disponibile 24/7</p>
-              </CardContent>
+              
             </Card>
           </div>
         </div>

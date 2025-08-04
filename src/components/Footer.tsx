@@ -1,9 +1,6 @@
-
 import { Shield, Phone, Mail, MapPin, Clock, ExternalLink } from "lucide-react";
-
 export const Footer = () => {
-  return (
-    <footer className="bg-foreground text-background">
+  return <footer className="bg-foreground text-background">
       <div className="container mx-auto px-4 py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo e descrizione */}
@@ -38,23 +35,19 @@ export const Footer = () => {
               <div className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 mt-0.5 text-primary flex-shrink-0" />
                 <div>
-                  <p className="text-background/90">Via dell'Industria, 123</p>
-                  <p className="text-background/90">20100 Milano (MI)</p>
+                  <p className="text-background/90">Via Lentumi,22</p>
+                  <p className="text-background/90">25047 Darfo Boario Terme (BS)</p>
                 </div>
               </div>
               
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-primary flex-shrink-0" />
-                <a href="tel:+390123456789" className="text-background/90 hover:text-primary transition-colors">
-                  +39 01 2345 6789
-                </a>
+                <a href="tel:+390123456789" className="text-background/90 hover:text-primary transition-colors">+39 3505047810</a>
               </div>
               
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-primary flex-shrink-0" />
-                <a href="mailto:info@prosicura.it" className="text-background/90 hover:text-primary transition-colors">
-                  info@prosicura.it
-                </a>
+                <a href="mailto:info@prosicura.it" className="text-background/90 hover:text-primary transition-colors">info@pro-sicura.it</a>
               </div>
 
               <div className="flex items-start gap-3">
@@ -113,6 +106,5 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
