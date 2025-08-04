@@ -67,6 +67,8 @@ export const Trust = () => {
               <span className="bg-primary/10 text-primary px-4 py-2 rounded-full font-medium">D.Lgs. 81/08</span>
               <span className="bg-primary/10 text-primary px-4 py-2 rounded-full font-medium">UNI EN 15512</span>
               <span className="bg-primary/10 text-primary px-4 py-2 rounded-full font-medium">Direttiva Macchine</span>
+              <span className="bg-primary/10 text-primary px-4 py-2 rounded-full font-medium">Add text here</span>
+              <span className="bg-primary/10 text-primary px-4 py-2 rounded-full font-medium">Add text here</span>
             </div>
           </div>
         </div>
