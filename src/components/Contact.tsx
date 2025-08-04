@@ -53,7 +53,7 @@ export const Contact = () => {
 
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {/* Form di contatto */}
-          <Card className="shadow-lg">
+          <Card className="shadow-elegant hover:shadow-glow transition-all duration-300">
             <CardHeader>
               <CardTitle className="text-2xl">Richiedi Informazioni</CardTitle>
               <CardDescription>
@@ -101,7 +101,7 @@ export const Contact = () => {
 
           {/* Informazioni di contatto */}
           <div className="space-y-8">
-            <Card>
+            <Card className="shadow-soft hover:shadow-elegant transition-all duration-300">
               <CardHeader>
                 <CardTitle className="text-xl">Informazioni di Contatto</CardTitle>
               </CardHeader>

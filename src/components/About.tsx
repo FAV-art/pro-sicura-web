@@ -3,7 +3,7 @@ import { Target, Users, Award } from "lucide-react";
 
 export const About = () => {
   return (
-    <section className="py-20 bg-muted/30">
+    <section id="about" className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
@@ -17,9 +17,9 @@ export const About = () => {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          <div className="text-center p-6">
-            <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Target className="w-8 h-8 text-primary" />
+          <div className="text-center p-6 hover-lift">
+            <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4 hover:bg-primary/20 transition-colors duration-300">
+              <Target className="w-8 h-8 text-primary hover:scale-110 transition-transform duration-300" />
             </div>
             <h3 className="text-xl font-semibold text-foreground mb-3">La Nostra Missione</h3>
             <p className="text-muted-foreground">
@@ -28,9 +28,9 @@ export const About = () => {
             </p>
           </div>
 
-          <div className="text-center p-6">
-            <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Users className="w-8 h-8 text-primary" />
+          <div className="text-center p-6 hover-lift" style={{ animationDelay: '0.1s' }}>
+            <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4 hover:bg-primary/20 transition-colors duration-300">
+              <Users className="w-8 h-8 text-primary hover:scale-110 transition-transform duration-300" />
             </div>
             <h3 className="text-xl font-semibold text-foreground mb-3">Il Nostro Team</h3>
             <p className="text-muted-foreground">
@@ -39,9 +39,9 @@ export const About = () => {
             </p>
           </div>
 
-          <div className="text-center p-6">
-            <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Award className="w-8 h-8 text-primary" />
+          <div className="text-center p-6 hover-lift" style={{ animationDelay: '0.2s' }}>
+            <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4 hover:bg-primary/20 transition-colors duration-300">
+              <Award className="w-8 h-8 text-primary hover:scale-110 transition-transform duration-300" />
             </div>
             <h3 className="text-xl font-semibold text-foreground mb-3">I Nostri Valori</h3>
             <p className="text-muted-foreground">

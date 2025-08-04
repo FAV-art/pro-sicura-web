@@ -87,10 +87,11 @@ export const Services = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {services.map((service, index) => (
-            <Card key={index} className="h-full hover:shadow-lg transition-all duration-300 border-l-4 border-l-primary">
+            <Card key={index} className="h-full hover-lift shadow-soft border-l-4 border-l-primary group"
+              style={{ animationDelay: `${index * 0.1}s` }}>
               <CardHeader className="pb-4">
-                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                  <service.icon className="w-6 h-6 text-primary" />
+                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors duration-300">
+                  <service.icon className="w-6 h-6 text-primary group-hover:scale-110 transition-transform duration-300" />
                 </div>
                 <CardTitle className="text-xl mb-2">{service.title}</CardTitle>
                 <CardDescription className="text-base">

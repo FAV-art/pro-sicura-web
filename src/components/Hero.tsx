@@ -6,7 +6,7 @@ export const Hero = () => {
       behavior: 'smooth'
     });
   };
-  return <section className="relative min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-primary/10 via-background to-primary/5">
+  return <section id="hero" className="relative min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-primary/10 via-background to-primary/5 pt-16">
       <div className="container mx-auto px-4 text-center max-w-4xl">
         {/* Logo e nome azienda */}
         <div className="mb-8 flex flex-col items-center">
