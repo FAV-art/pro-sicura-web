@@ -17,7 +17,7 @@ export const Footer = () => {
             </p>
             <div className="space-y-2 text-sm">
               <p className="text-background/60">
-                <strong>P.IVA:</strong> 12345678901
+                <strong>P.IVA:</strong> 04694300981
               </p>
               <p className="text-background/60">
                 <strong>Codice Fiscale:</strong> 12345678901
