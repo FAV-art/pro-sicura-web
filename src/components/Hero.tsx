@@ -1,4 +1,4 @@
-import { Shield, Phone, Mail } from "lucide-react";
+import { Phone, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 export const Hero = () => {
   const scrollToContact = () => {
@@ -10,8 +10,8 @@ export const Hero = () => {
       <div className="container mx-auto px-4 text-center max-w-4xl">
         {/* Logo e nome azienda */}
         <div className="mb-8 flex flex-col items-center">
-          <div className="w-24 h-24 bg-primary rounded-full flex items-center justify-center mb-4 shadow-lg">
-            <Shield className="w-12 h-12 text-primary-foreground" />
+          <div className="w-32 h-32 mb-4">
+            <img src="/lovable-uploads/e75bb08b-7d6f-426a-b863-51ef33af9085.png" alt="Pro Sicura Logo" className="w-full h-full object-contain" />
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-4">
             Pro <span className="text-primary">Sicura</span>
