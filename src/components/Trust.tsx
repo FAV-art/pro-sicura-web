@@ -5,10 +5,6 @@ export const Trust = () => {
     title: "Conformità UNI EN 15635",
     description: "Certificazioni secondo la normativa europea per scaffalature metalliche"
   }, {
-    icon: Calendar,
-    title: "15+ Anni di Esperienza",
-    description: "Oltre 15 anni nel settore delle certificazioni di sicurezza"
-  }, {
     icon: MapPin,
     title: "Copertura Nazionale",
     description: "Interventiamo su tutto il territorio italiano"
@@ -16,10 +12,6 @@ export const Trust = () => {
     icon: Award,
     title: "Tecnici Certificati",
     description: "Team di specialisti qualificati e costantemente aggiornati"
-  }, {
-    icon: Users,
-    title: "1000+ Clienti Soddisfatti",
-    description: "Aziende di ogni dimensione si affidano alla nostra competenza"
   }, {
     icon: FileText,
     title: "Documentazione Completa",
