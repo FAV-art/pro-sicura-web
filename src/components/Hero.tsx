@@ -11,37 +11,37 @@ export const Hero = () => {
         {/* Logo e nome azienda */}
         <div className="mb-8 flex flex-col items-center relative">
           <div className="relative group mb-8 z-10">
-            {/* Soft radial glow behind left worker */}
-            <div className="absolute -left-28 md:-left-36 lg:-left-48 top-1/2 -translate-y-1/2 w-56 md:w-72 lg:w-96 h-56 md:h-72 lg:h-96 bg-primary/15 rounded-full blur-3xl -z-10"></div>
+            {/* Enhanced radial glow behind left worker */}
+            <div className="absolute -left-20 md:-left-28 lg:-left-36 top-1/2 -translate-y-1/2 w-64 md:w-80 lg:w-[28rem] h-64 md:h-80 lg:h-[28rem] bg-primary/25 rounded-full blur-2xl -z-10"></div>
             
-            {/* Large left worker image */}
-            <div className="absolute -left-24 md:-left-32 lg:-left-40 top-1/2 -translate-y-1/2 hidden sm:block opacity-25 md:opacity-20 pointer-events-none z-0">
+            {/* Large left worker image - more visible */}
+            <div className="absolute -left-16 md:-left-24 lg:-left-32 top-1/2 -translate-y-1/2 hidden sm:block opacity-40 md:opacity-35 lg:opacity-30 pointer-events-none z-0">
               <img 
                 src="/lovable-uploads/e97d4d6a-ff83-4aed-adfa-9027092d6d53.png" 
                 alt="" 
                 aria-hidden="true"
-                className="w-40 md:w-56 lg:w-72 xl:w-80 h-auto object-cover rounded-xl filter grayscale hover:grayscale-0 transition-all duration-700 drop-shadow-xl" 
+                className="w-48 md:w-64 lg:w-80 xl:w-96 h-auto object-cover rounded-xl filter grayscale hover:grayscale-0 transition-all duration-700 drop-shadow-2xl" 
               />
             </div>
             
-            {/* Smaller right mirrored worker */}
-            <div className="absolute -right-16 md:-right-24 lg:-right-32 top-2/3 -translate-y-1/2 hidden lg:block opacity-10 pointer-events-none z-0">
+            {/* Smaller right mirrored worker - more visible */}
+            <div className="absolute -right-12 md:-right-18 lg:-right-24 top-2/3 -translate-y-1/2 hidden lg:block opacity-20 pointer-events-none z-0">
               <img 
                 src="/lovable-uploads/e97d4d6a-ff83-4aed-adfa-9027092d6d53.png" 
                 alt="" 
                 aria-hidden="true"
-                className="w-28 md:w-40 lg:w-52 h-auto object-cover rounded-xl filter grayscale scale-x-[-1] transition-all duration-700" 
+                className="w-36 md:w-48 lg:w-64 h-auto object-cover rounded-xl filter grayscale scale-x-[-1] transition-all duration-700 drop-shadow-xl" 
               />
             </div>
             {/* Background glow effect */}
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-primary/10 to-transparent rounded-full blur-xl scale-150 group-hover:scale-175 transition-transform duration-700"></div>
             
-            {/* Logo container with enhanced styling */}
-            <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 bg-gradient-to-br from-background/80 to-background/60 backdrop-blur-sm rounded-full p-8 shadow-2xl border border-primary/20 group-hover:border-primary/40 transition-all duration-500 group-hover:shadow-primary/20 group-hover:shadow-3xl animate-[fadeIn_1s_ease-out,scaleIn_0.8s_ease-out_0.3s_both]">
+            {/* Logo container with enhanced styling and containment */}
+            <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 bg-gradient-to-br from-background/80 to-background/60 backdrop-blur-sm rounded-full p-10 md:p-12 shadow-2xl border border-primary/20 group-hover:border-primary/40 transition-all duration-500 group-hover:shadow-primary/20 group-hover:shadow-3xl animate-[fadeIn_1s_ease-out,scaleIn_0.8s_ease-out_0.3s_both] overflow-hidden">
               <img 
                 src="/lovable-uploads/75a648cd-cdd4-4fa9-9b7a-c1e83274795d.png" 
                 alt="Pro Sicura Logo" 
-                className="w-full h-full object-contain drop-shadow-lg group-hover:scale-105 transition-transform duration-300 filter contrast-110 brightness-105" 
+                className="w-full h-full object-contain drop-shadow-lg group-hover:scale-[1.02] transition-transform duration-300 filter contrast-110 brightness-105" 
               />
               
               {/* Floating animation ring */}
