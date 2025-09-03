@@ -61,7 +61,6 @@ export const Trust = () => {
               <span className="bg-primary/10 text-primary px-4 py-2 rounded-full font-medium hover:bg-primary/20 transition-colors duration-300 cursor-default">UNI EN 15512</span>
               <span className="bg-primary/10 text-primary px-4 py-2 rounded-full font-medium hover:bg-primary/20 transition-colors duration-300 cursor-default">UNI EN 15629</span>
               <span className="bg-primary/10 text-primary px-4 py-2 rounded-full font-medium hover:bg-primary/20 transition-colors duration-300 cursor-default">UNI EN 15620</span>
-              <span className="bg-primary/10 text-primary px-4 py-2 rounded-full font-medium hover:bg-primary/20 transition-colors duration-300 cursor-default">ISO 45001</span>
             </div>
           </div>
         </div>
