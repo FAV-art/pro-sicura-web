@@ -10,25 +10,29 @@ export const Hero = () => {
       <div className="container mx-auto px-4 text-center max-w-4xl">
         {/* Logo e nome azienda */}
         <div className="mb-8 flex flex-col items-center relative">
-          {/* Background worker image with soft opacity */}
-          <div className="absolute -left-32 md:-left-48 lg:-left-64 top-1/2 -translate-y-1/2 opacity-20 pointer-events-none hidden lg:block">
-            <img 
-              src="/lovable-uploads/e97d4d6a-ff83-4aed-adfa-9027092d6d53.png" 
-              alt="Safety Engineer" 
-              className="w-48 h-48 xl:w-64 xl:h-64 object-cover rounded-lg filter grayscale hover:grayscale-0 transition-all duration-700" 
-            />
-          </div>
-          
-          {/* Background worker image on right side for balance */}
-          <div className="absolute -right-32 md:-right-48 lg:-right-64 top-1/2 -translate-y-1/2 opacity-15 pointer-events-none hidden lg:block">
-            <img 
-              src="/lovable-uploads/e97d4d6a-ff83-4aed-adfa-9027092d6d53.png" 
-              alt="Safety Engineer" 
-              className="w-48 h-48 xl:w-64 xl:h-64 object-cover rounded-lg filter grayscale scale-x-[-1] hover:grayscale-0 transition-all duration-700" 
-            />
-          </div>
-          
           <div className="relative group mb-8 z-10">
+            {/* Soft radial glow behind left worker */}
+            <div className="absolute -left-28 md:-left-36 lg:-left-48 top-1/2 -translate-y-1/2 w-56 md:w-72 lg:w-96 h-56 md:h-72 lg:h-96 bg-primary/15 rounded-full blur-3xl -z-10"></div>
+            
+            {/* Large left worker image */}
+            <div className="absolute -left-24 md:-left-32 lg:-left-40 top-1/2 -translate-y-1/2 hidden sm:block opacity-25 md:opacity-20 pointer-events-none z-0">
+              <img 
+                src="/lovable-uploads/e97d4d6a-ff83-4aed-adfa-9027092d6d53.png" 
+                alt="" 
+                aria-hidden="true"
+                className="w-40 md:w-56 lg:w-72 xl:w-80 h-auto object-cover rounded-xl filter grayscale hover:grayscale-0 transition-all duration-700 drop-shadow-xl" 
+              />
+            </div>
+            
+            {/* Smaller right mirrored worker */}
+            <div className="absolute -right-16 md:-right-24 lg:-right-32 top-2/3 -translate-y-1/2 hidden lg:block opacity-10 pointer-events-none z-0">
+              <img 
+                src="/lovable-uploads/e97d4d6a-ff83-4aed-adfa-9027092d6d53.png" 
+                alt="" 
+                aria-hidden="true"
+                className="w-28 md:w-40 lg:w-52 h-auto object-cover rounded-xl filter grayscale scale-x-[-1] transition-all duration-700" 
+              />
+            </div>
             {/* Background glow effect */}
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-primary/10 to-transparent rounded-full blur-xl scale-150 group-hover:scale-175 transition-transform duration-700"></div>
             
