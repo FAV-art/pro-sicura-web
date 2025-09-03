@@ -9,8 +9,26 @@ export const Hero = () => {
   return <section id="hero" className="relative min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-primary/10 via-background to-primary/5 pt-16">
       <div className="container mx-auto px-4 text-center max-w-4xl">
         {/* Logo e nome azienda */}
-        <div className="mb-8 flex flex-col items-center">
-          <div className="relative group mb-8">
+        <div className="mb-8 flex flex-col items-center relative">
+          {/* Background worker image with soft opacity */}
+          <div className="absolute -left-32 md:-left-48 lg:-left-64 top-1/2 -translate-y-1/2 opacity-20 pointer-events-none hidden lg:block">
+            <img 
+              src="/lovable-uploads/e97d4d6a-ff83-4aed-adfa-9027092d6d53.png" 
+              alt="Safety Engineer" 
+              className="w-48 h-48 xl:w-64 xl:h-64 object-cover rounded-lg filter grayscale hover:grayscale-0 transition-all duration-700" 
+            />
+          </div>
+          
+          {/* Background worker image on right side for balance */}
+          <div className="absolute -right-32 md:-right-48 lg:-right-64 top-1/2 -translate-y-1/2 opacity-15 pointer-events-none hidden lg:block">
+            <img 
+              src="/lovable-uploads/e97d4d6a-ff83-4aed-adfa-9027092d6d53.png" 
+              alt="Safety Engineer" 
+              className="w-48 h-48 xl:w-64 xl:h-64 object-cover rounded-lg filter grayscale scale-x-[-1] hover:grayscale-0 transition-all duration-700" 
+            />
+          </div>
+          
+          <div className="relative group mb-8 z-10">
             {/* Background glow effect */}
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-primary/10 to-transparent rounded-full blur-xl scale-150 group-hover:scale-175 transition-transform duration-700"></div>
             
