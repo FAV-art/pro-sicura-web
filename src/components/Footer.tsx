@@ -7,7 +7,7 @@ export const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-full flex items-center justify-center">
-                <img src="/lovable-uploads/4965f630-668d-441e-8bb4-cc8963dd5301.png" alt="Pro Sicura Logo" className="w-6 h-6" />
+                <img src="/lovable-uploads/75a648cd-cdd4-4fa9-9b7a-c1e83274795d.png" alt="Pro Sicura Logo" className="w-6 h-6 object-contain" />
               </div>
               <span className="text-2xl font-bold">Pro Sicura</span>
             </div>

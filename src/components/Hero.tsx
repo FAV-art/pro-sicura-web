@@ -17,7 +17,7 @@ export const Hero = () => {
             {/* Logo container with enhanced styling */}
             <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 bg-gradient-to-br from-background/80 to-background/60 backdrop-blur-sm rounded-full p-8 shadow-2xl border border-primary/20 group-hover:border-primary/40 transition-all duration-500 group-hover:shadow-primary/20 group-hover:shadow-3xl animate-[fadeIn_1s_ease-out,scaleIn_0.8s_ease-out_0.3s_both]">
               <img 
-                src="/lovable-uploads/e75bb08b-7d6f-426a-b863-51ef33af9085.png" 
+                src="/lovable-uploads/75a648cd-cdd4-4fa9-9b7a-c1e83274795d.png" 
                 alt="Pro Sicura Logo" 
                 className="w-full h-full object-contain drop-shadow-lg group-hover:scale-105 transition-transform duration-300 filter contrast-110 brightness-105" 
               />

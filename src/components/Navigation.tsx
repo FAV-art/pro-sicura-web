@@ -43,9 +43,9 @@ export const Navigation = () => {
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-full flex items-center justify-center">
               <img 
-                src="/lovable-uploads/4965f630-668d-441e-8bb4-cc8963dd5301.png" 
+                src="/lovable-uploads/75a648cd-cdd4-4fa9-9b7a-c1e83274795d.png" 
                 alt="Pro Sicura Logo" 
-                className="w-8 h-8" 
+                className="w-8 h-8 object-contain"
               />
             </div>
             <span className="text-xl font-bold text-foreground">Pro Sicura</span>
