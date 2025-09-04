@@ -67,9 +67,9 @@ export const Navigation = () => {
           {/* Contact Info & CTA */}
           <div className="hidden lg:flex items-center space-x-4">
             <div className="flex items-center space-x-4 text-sm text-muted-foreground">
-              <a href="tel:+393505047810" className="flex items-center gap-1 hover:text-primary transition-colors">
+              <a href="tel:+393426355514" className="flex items-center gap-1 hover:text-primary transition-colors">
                 <Phone className="w-4 h-4" />
-                <span>3505047810</span>
+                <span>3426355514</span>
               </a>
               <a href="mailto:info@pro-sicura.it" className="flex items-center gap-1 hover:text-primary transition-colors">
                 <Mail className="w-4 h-4" />
@@ -109,9 +109,9 @@ export const Navigation = () => {
               ))}
               <div className="px-4 py-2 border-t border-border/50 mt-2 pt-4">
                 <div className="flex flex-col space-y-2 text-sm text-muted-foreground">
-                  <a href="tel:+393505047810" className="flex items-center gap-2">
+                  <a href="tel:+393426355514" className="flex items-center gap-2">
                     <Phone className="w-4 h-4" />
-                    <span>3505047810</span>
+                    <span>3426355514</span>
                   </a>
                   <a href="mailto:info@pro-sicura.it" className="flex items-center gap-2">
                     <Mail className="w-4 h-4" />

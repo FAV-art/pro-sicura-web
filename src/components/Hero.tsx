@@ -67,9 +67,9 @@ export const Hero = () => {
             Richiedi Preventivo
           </Button>
           <div className="flex items-center gap-6 text-muted-foreground">
-            <a href="tel:+390123456789" className="flex items-center gap-2 hover:text-primary transition-colors">
+            <a href="tel:+393426355514" className="flex items-center gap-2 hover:text-primary transition-colors">
               <Phone className="w-5 h-5" />
-              <span className="font-medium">3505047810</span>
+              <span className="font-medium">3426355514</span>
             </a>
             <a href="mailto:info@prosicura.it" className="flex items-center gap-2 hover:text-primary transition-colors">
               <Mail className="w-5 h-5" />
